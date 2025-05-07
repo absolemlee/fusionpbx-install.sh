@@ -1,5 +1,5 @@
 
-FusionPBX Install
+forked from FusionPBX Install - 6may25@absolemlee
 --------------------------------------
 A quick install guide & scripts for installing FusionPBX. It is recommended to start with a minimal install of the operating system. Notes on further tweaking your configuration are at end of the file.
 
@@ -7,7 +7,7 @@ A quick install guide & scripts for installing FusionPBX. It is recommended to s
 
 ### Debian and Raspberry OS
 Debian is the preferred operating system by the FreeSWITCH developers. It supports the latest video dependencies and should be used if you want to do video mixing. Download Debian at https://cdimage.debian.org/cdimage/release/current/
-
+--> will be touching specific debian scripting for DO droplet
 ```sh
 wget -O - https://raw.githubusercontent.com/fusionpbx/fusionpbx-install.sh/master/debian/pre-install.sh | sh;
 cd /usr/src/fusionpbx-install.sh/debian && ./install.sh
